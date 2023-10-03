@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+}
+
+.imdDev {
+  position: relative;
+}
+.dev {
+  filter: drop-shadow(#f1f1f1 2px 2px 5px);
+  position: absolute;
+}
+
+.dev_black {
+  z-index: 2;
+}
+
+.dev_black:hover {
+  display: none;
+}
+
+.dev_white {
+  filter: drop-shadow(#f1f1f1 2px 2px 5px);
+}
