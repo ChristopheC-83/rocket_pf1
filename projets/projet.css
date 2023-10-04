@@ -24,7 +24,7 @@ body {
   background: url("../images/points.png") no-repeat,
     url("../images/cuisines.png") no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
 }
 
 .navbar {
@@ -127,4 +127,6 @@ footer {
   .text_intro{
   padding: 10px;
 }
+
+.text_footer{margin-left: 10px;}
 }
