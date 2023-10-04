@@ -11,6 +11,7 @@
 body {
   min-height: 100vh;
   width: 100vw;
+  position: relative;
 }
 
 .intro {
@@ -19,11 +20,19 @@ body {
   background-color: #222;
   color: #f1f1f1;
 }
+.container_intro {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px;
+  background-color: #222;
 }
 
 .container {
@@ -52,7 +61,7 @@ body {
   width: 50%;
 }
 
-.text_intro p{
+.text_intro p {
   width: 80%;
   margin: 0 auto;
   line-height: 35px;
@@ -62,27 +71,43 @@ body {
   width: 100%;
 }
 
+.container_creations h2 {
+  text-align: center;
+  margin: 30px;
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+.creations {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-auto-rows: repeat(auto-fill, 360px);
+}
+
 .pc {
-  margin-left: 200px;
-  width: 250px;
-  height: 147px;
-  background-image: url("images/cuisine.png");
-  background-size: 120%;
-  background-repeat: no-repeat;
-  background-position: -10% -200%;
-  overflow: hidden;
-  cursor: pointer;
-  position: relative;
+  /* margin-left: 200px; */
+  margin: 30px auto;
+  width: 400px;
+  height:250px;
+  position: relative; 
 }
 
 .pc img {
   width: 100%;
   height: auto;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: -10% 25px;
+  cursor: pointer;
+}
+
+.pc1 img{
+  background-image: url("images/cuisine.png");
 }
 
 .pc h3 {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 25%;
   font-size: 18px;
   transform: translate(-50%, -50%);
@@ -90,8 +115,11 @@ body {
 }
 
 .pc:hover h3 {
-  top: 50%;
-  left: 65%;
+  top: 40%;
+  left: 63%;
+  background-color: #f1f1f195;
+  padding: 10px 20px;
+  border-radius: 25px;
   font-size: 30px;
   font-weight: bold;
   -webkit-text-stroke: 1px white;

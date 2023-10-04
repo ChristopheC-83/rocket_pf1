@@ -1,0 +1,16 @@
+@media all and (max-width: 900px) {
+  .intro2 {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .text_intro {
+    width: 96%;
+  }
+  
+.text_intro p{
+width: 90%;}
+
+  .img_intro {
+    width: 80%;
+  }
+}
