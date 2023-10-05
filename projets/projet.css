@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
   width: 100vw;
   position: relative;
+  overflow-x: hidden;
 }
 
 .intro {
@@ -61,8 +62,8 @@ body {
 }
 .text_intro p {
   width: 400px;
-  line-height: 35px;
   margin-top: 30px;
+  line-height: 40px;
   font-size: 22px;
 }
 
@@ -80,9 +81,11 @@ body {
 .container_info h2 {
   font-size: 40px;
   margin: 15px;
+  margin-top: 30px;
 }
 
 .container_info p {
+  line-height: 40px;
   font-size: 22px;
   width: 96%;
   margin: 0 auto 20px;

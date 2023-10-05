@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
   width: 100vw;
   position: relative;
+  overflow-x: hidden;
 }
 
 .intro {
@@ -30,6 +31,7 @@ body {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  font-size: 20px;
 }
 
 .navbar {
@@ -69,7 +71,8 @@ body {
 .text_intro p {
   width: 80%;
   margin: 0 auto;
-  line-height: 35px;
+  line-height: 40px;
+  font-size: 20px;
 }
 
 .img_intro img {
