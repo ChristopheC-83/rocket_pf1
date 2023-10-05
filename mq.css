@@ -6,13 +6,13 @@
   .text_intro {
     width: 96%;
   }
-  
-.text_intro p{
-  margin-top: 200px;
-width: 90%;}
+
+  .text_intro p {
+    margin-top: 200px;
+    width: 90%;
+  }
 
   .img_intro {
     width: 80%;
   }
-
 }
